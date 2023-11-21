@@ -23,18 +23,25 @@ body{
     100% {color: sienna;}
 }
 .contact{
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     margin-left: 450px;
-    margin-top: -71px;
+    margin-top: -60px;
 }
 .trust{
-    font-size: 35px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 600px;
+    margin-top: -50px;
+}
+.gw{
+    font-size: 25px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     margin-left: 750px;
-    margin-top: -71px;
+    margin-top: -50px;
 }
 .div{
     width: auto;
@@ -47,7 +54,7 @@ body{
     width: 190px;
     height: 254px;
     border-radius: 20px;
-    margin-left: 100px;
+    margin-left: 300px;
     margin-top: 50px;
     padding: 5px;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
@@ -116,11 +123,84 @@ button:active {
            0 0 2.5em 2em var(--glow-spread-color),
            inset 0 0 .5em .25em var(--glow-color);
 }
+.card3 {
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    margin-left: 900px;
+    margin-top: -265px;
+    padding: 5px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg, #da22ff 50%,#9733ee);
+}
+  
+.card__content3 {
+    background: rgb(5, 6, 45);
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+}
+.ft2{
+    width: 150px;
+    height: 100px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+button {
+    --glow-color: rgb(217, 176, 255);
+    --glow-spread-color: rgba(191, 123, 255, 0.781);
+    --enhanced-glow-color: rgb(231, 206, 255);
+    --btn-color: rgb(100, 61, 136);
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 14px;
+    margin-left: 13px;
+    margin-top: 30px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+}
+   
+button::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+   
+button:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 2em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+}
+   
+button:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+           0 0 2.5em 2em var(--glow-spread-color),
+           inset 0 0 .5em .25em var(--glow-color);
+}
 .card1 {
     width: 190px;
     height: 254px;
     border-radius: 20px;
-    margin-left: 400px;
+    margin-left: 600px;
     margin-top: -265px;
     padding: 5px;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
@@ -128,6 +208,79 @@ button:active {
 }
   
 .card__content1 {
+    background: rgb(5, 6, 45);
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+}
+.ft1{
+    width: 110px;
+    height: 110px;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+button {
+    --glow-color: rgb(217, 176, 255);
+    --glow-spread-color: rgba(191, 123, 255, 0.781);
+    --enhanced-glow-color: rgb(231, 206, 255);
+    --btn-color: rgb(100, 61, 136);
+    border: .25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 14px;
+    margin-left: 13px;
+    margin-top: 30px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 1em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+    text-shadow: 0 0 .5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+}
+   
+button::after {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--glow-spread-color);
+    filter: blur(2em);
+    opacity: .7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+   
+button:hover {
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em .25em var(--glow-color),
+           0 0 4em 2em var(--glow-spread-color),
+           inset 0 0 .75em .25em var(--glow-color);
+}
+   
+button:active {
+    box-shadow: 0 0 0.6em .25em var(--glow-color),
+           0 0 2.5em 2em var(--glow-spread-color),
+           inset 0 0 .5em .25em var(--glow-color);
+}
+.card1 {
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    margin-left: 600px;
+    margin-top: -265px;
+    padding: 5px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg, #da22ff 50%,#9733ee);
+}
+  
+.card__content {
     background: rgb(5, 6, 45);
     border-radius: 17px;
     width: 100%;
@@ -200,8 +353,8 @@ button:active {
     width: 190px;
     height: 254px;
     border-radius: 20px;
-    margin-left: 700px;
-    margin-top: -265px;
+    margin-left: 600px;
+    margin-top: 65px;
     padding: 5px;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
     background-image: linear-gradient(144deg, #da22ff 50%,#9733ee);
@@ -272,7 +425,11 @@ button:active {
 
 
 
-
+.ena{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-left: 120px;
+}
 
 @media (width: 400px) {
     .div{
@@ -302,4 +459,29 @@ button:active {
     margin-top: 200px;
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
+}
+@media (width: 400px) {
+    .div{
+        margin-top: 300px;
+    }
+    .gw{
+        margin-left: 140px;
+        margin-top: 50px;
+    }
+    .card3{
+        margin-left: 100px;
+        margin-top: 200px;
+    }
+    .card{
+        margin-left: 100px;
+    }
+    .contact{
+        margin-left: 145px;
+    }
+    .trust{
+        margin-left: 140px;
+    }
+    .ena{
+        margin-top: -250px;
+    }
 }

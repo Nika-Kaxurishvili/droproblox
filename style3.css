@@ -23,18 +23,25 @@ body{
     100% {color: sienna;}
 }
 .contact{
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     margin-left: 450px;
-    margin-top: -71px;
+    margin-top: -60px;
 }
 .trust{
-    font-size: 35px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 600px;
+    margin-top: -50px;
+}
+.gw{
+    font-size: 25px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     margin-left: 750px;
-    margin-top: -71px;
+    margin-top: -50px;
 }
 .div{
     width: auto;
@@ -318,4 +325,83 @@ button:active {
 }
 .h3{
     color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .comments {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+  
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+  }
+  @media (width: 400px) {
+    .div{
+        margin-top: 100px;
+    }
+    .gw{
+        margin-left: 140px;
+        margin-top: 50px;
+    }
+    .card3{
+        margin-left: 100px;
+        margin-top: 200px;
+    }
+    .card{
+        margin-left: 100px;
+    }
+    .contact{
+        margin-left: 145px;
+    }
+    .trust{
+        margin-left: 140px;
+    }
+    .ena{
+        margin-top: -250px;
+    }
+    .gel{
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    .ang1{
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    .ang{
+        font-family: 10px;
+    }
+    .ang2{
+        margin-left: 10px;
+    }
+    .ft1{
+        width: 250px;
+        height: 170px;
+    }
+    .h4{
+        margin-left: 70px;
+        margin-top: 100px
+    }
+    .h5{
+        margin-left: 70px;
+        margin-top: 20px
+    }
+    .bt{
+        margin-left: 100px;
+    }
 }

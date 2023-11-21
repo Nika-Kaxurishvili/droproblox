@@ -22,19 +22,33 @@ body{
     90% {color: navy;}
     100% {color: sienna;}
 }
+.contact1{
+    font-size: 20px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 0px;
+    margin-top: 101px;
+}
 .contact{
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     margin-left: 450px;
-    margin-top: -71px;
+    margin-top: -60px;
 }
 .trust{
-    font-size: 35px;
+    font-size: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 600px;
+    margin-top: -50px;
+}
+.gw{
+    font-size: 25px;
     color: white;
     font-family: 'Courier New', Courier, monospace;
     margin-left: 750px;
-    margin-top: -71px;
+    margin-top: -50px;
 }
 .div{
     width: auto;
@@ -274,13 +288,13 @@ button:active {
 .ft2{
     width: 100px;
     height: 100px;
-    margin-top: 200px;
+    margin-top: 50px;
     margin-left: 000px;
 }
 .ft3{
     width: 100px;
     height: 100px;
-    margin-top: 200px;
+    margin-top: 50px;
     margin-left: 40px;
 }
 
@@ -307,4 +321,29 @@ button:active {
 }
 .h3{
     color: white;
+}
+@media (width: 400px) {
+    .div{
+        margin-top: 100px;
+    }
+    .gw{
+        margin-left: 140px;
+        margin-top: 50px;
+    }
+    .card3{
+        margin-left: 100px;
+        margin-top: 200px;
+    }
+    .card{
+        margin-left: 100px;
+    }
+    .contact{
+        margin-left: 145px;
+    }
+    .trust{
+        margin-left: 140px;
+    }
+    .ena{
+        margin-top: -250px;
+    }
 }

@@ -9,6 +9,11 @@ body{
     animation: color 8s infinite;
     text-shadow: 2px 2px 4px ;
 }
+.ena{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    margin-left: 120px;
+}
 @keyframes color {
     0% {color: rgb(143, 143, 143);}
     10% {color: yellow;}
@@ -207,8 +212,8 @@ button:active {
     width: 190px;
     height: 254px;
     border-radius: 20px;
-    margin-left: 600px;
-    margin-top: 65px;
+    margin-left: 700px;
+    margin-top: -265px;
     padding: 5px;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
     background-image: linear-gradient(144deg, #da22ff 50%,#9733ee);
@@ -278,13 +283,43 @@ button:active {
 }
 
 
-.h4{
-    color: white;
-    font-size: 50px;
-    margin-top: 200px;
+.ft2{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 000px;
+}
+.ft3{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 40px;
 }
 
-
+.ang{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+    margin-left: 100px;
+}
+.ang1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: white;
+    margin-left: 100px;
+}
+.ang2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+    margin-left: 100px;
+}
+.gel{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: white;
+    margin-left: 100px;
+}
 @media (width: 400px) {
     .div{
         margin-top: 50px;
@@ -307,4 +342,43 @@ button:active {
 }
 .h3{
     color: white;
+}
+@media (width: 400px) {
+    .div{
+        margin-top: 300px;
+    }
+    .gw{
+        margin-left: 140px;
+        margin-top: 50px;
+    }
+    .card3{
+        margin-left: 100px;
+        margin-top: 200px;
+    }
+    .card{
+        margin-left: 100px;
+    }
+    .contact{
+        margin-left: 145px;
+    }
+    .trust{
+        margin-left: 140px;
+    }
+    .ena{
+        margin-top: -250px;
+    }
+    .gel{
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    .ang1{
+        font-size: 20px;
+        margin-left: -10px;
+    }
+    .ang{
+        font-family: 10px;
+    }
+    .ang2{
+        margin-left: 10px;
+    }
 }
